@@ -1,6 +1,6 @@
 package Service;
 import com.infoshareacademy.register.Entity.StudentResponse;
-import com.infoshareacademy.register.RegisterService;
+import com.infoshareacademy.register.Service.RegisterService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

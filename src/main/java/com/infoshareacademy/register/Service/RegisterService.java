@@ -1,4 +1,4 @@
-package com.infoshareacademy.register;
+package com.infoshareacademy.register.Service;
 import com.infoshareacademy.register.Entity.*;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;

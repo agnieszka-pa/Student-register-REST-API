@@ -2,7 +2,7 @@ package com.infoshareacademy.register.Controller;
 import com.infoshareacademy.register.Entity.Student;
 import com.infoshareacademy.register.Entity.StudentRequest;
 import com.infoshareacademy.register.Entity.StudentResponse;
-import com.infoshareacademy.register.RegisterService;
+import com.infoshareacademy.register.Service.RegisterService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
