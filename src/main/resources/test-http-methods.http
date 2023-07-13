@@ -1,0 +1,45 @@
+GET localhost:8080/api/v1/students
+###
+POST localhost:8080/api/v1/students
+Content-Type: application/json
+
+
+[
+  {
+    "name": "Julia",
+    "surname": "Misiek",
+    "course": "JJDZR10"
+  },
+  {
+    "name": "Grzegorz",
+    "surname": "Matusiak",
+    "course": "JJDZR11"
+  }
+]
+
+
+###
+GET localhost:8080/api/v1/students?name=Weronika&surname=Konkol
+###
+GET localhost:8080/api/v1/students?surname=Cichy
+###
+GET localhost:8080/api/v1/students?name=Krystian&course=JJDZR09
+###
+GET localhost:8080/api/v1/students?course=JJDZR09
+###
+GET localhost:8080/api/v1/students/count
+###
+GET localhost:8080/api/v1/students/count?course=JJDZR09
+###
+GET localhost:8080/api/v1/students/average-age
+###
+PUT localhost:8080/api/v1/students/572
+Content-Type: application/json
+
+{
+  "name" : "Julia",
+  "surname": "Witkowski",
+  "course": "JJDZR09"
+}
+###
+DELETE localhost:8080/api/v1/students/74
