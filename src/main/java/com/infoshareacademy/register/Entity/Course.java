@@ -1,4 +1,10 @@
 package com.infoshareacademy.register.Entity;
 
-public class Course {
+public enum Course {
+
+    JJDZR09,
+
+    JJDZR10,
+
+    JJDZR11;
 }
